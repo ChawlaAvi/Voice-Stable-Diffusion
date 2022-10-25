@@ -12,7 +12,7 @@ build_dir = os.path.join(parent_dir, "st_audiorec/frontend/build")
 st_audiorec = components.declare_component("st_audiorec", path=build_dir)
 
 
-assembly_auth_key = "535b2431381742b297a92085de5c951c"
+assembly_auth_key = "YOUR_AUTH_KEY"
 
 headers = {
     'authorization': assembly_auth_key, 
